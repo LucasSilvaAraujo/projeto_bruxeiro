@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetinho Bruxeiro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="src/assets/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="geralt" data-name="Geralt de Rivia" data-description="Geralt de Rivia foi um bruxo lendário da Escola do Lobo que viveu durante o século XIII. Ele amava a feiticeira Yennefer e se tonou pai adotivo de Ciri, a princesa do reino de Cintra.">
+                    <img src="src/assets/card-geralt.jpg" alt="Geralt">
+                </li>
+                <li class="personagem" id="yennefer" data-name="Yennefer de Vengerberg" data-description="Yennefer de Vengerberg, nascida na capital de Aedirn durante o Belleteyn de 1173, é uma poderosa feiticeira e o grande amor do bruxo Geralt de Rívia, além de uma figura materna para Ciri e uma amiga próxima de Triss Merigold.">
+                    <img src="src/assets/card-yennefer.jpg" alt="Yennefer">
+                </li>
+                <li class="personagem" id="cirilla" data-name="Cirilla de Cintra" data-description="Ciri, nasceu em 1253 durante o festival Belleteyn. Ela é filha única de Pavetta, a princesa de Cintra, e Duny, o Ouriço de Erlenwald. E neta da rainha Calanthe. Ciri também é ligada pelo Destino com o bruxo Geralt de Rívia.">
+                    <img src="src/assets/card-cirilla.jpg" alt="Cirilla">
+                </li>
+                <li class="personagem" id="triss" data-name="Triss Merigold" data-description="Triss Merigold de Maribor foi uma lendária feiticeira Temeriana do século XIII. Chamada de Décima Quarta da Colina por seus contemporâneos porque foi erroneamente considerada morta durante a Batalha do Monte Sodden.">
+                    <img src="src/assets/card-triss.jpg" alt="Triss">
+                </li>
+                <li class="personagem" id="dandelion" data-name="Dandelion" data-description="Dandelion é um poeta, menestrel, bardo e amigo próximo do bruxo Geralt de Rívia.">
+                    <img src="src/assets/card-dandelion.jpg" alt="Dandelion">
+                </li>
+                <li class="personagem" id="vesemir" data-name="Vesemir" data-description="Vasemir, é um antigo e experiente bruxo do Universo Witcher, ele possui cabelos cinzas assim como Geralt, tem conhecimento vasto sobre as criaturas presentes no mundo e é um mestre em esgrima.">
+                    <img src="src/assets/card-vesemir.jpg" alt="Vesemir">
+                </li>
+                <li class="personagem" id="zoltan" data-name="Zoltan Chivay" data-description="Zoltan Chivay é um anão, veterano da Segunda Guerra do Norte, e um amigo de Geralt.">
+                    <img src="src/assets/card-zoltan.jpg" alt="Zoltan">
+                </li>
+                <li class="personagem" id="gaunter" data-name="Gaunter O'Dimm" data-description="Gaunter O'Dim é uma figura enigmática que se apresenta como um vendedor ambulante de espelhos e atende por muitos outros nomes, tal qual Senhor Espelho e Homem de Vidro.">
+                    <img src="src/assets/card-gaunter.jpg" alt="Gaunter O'Dimm">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/assets/card-geralt.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Geralt de Rivia</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Geralt de Rivia foi um bruxo lendário da Escola do Lobo que viveu durante o século XIII. Ele amava a feiticeira Yennefer e se tonou pai adotivo de Ciri, a princesa do reino de Cintra.</p>
+            </div>
+        </section>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
